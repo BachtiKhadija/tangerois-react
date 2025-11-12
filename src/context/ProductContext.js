@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useContext, useEffect } from "react";
 import { productReducer, initialState } from "./ProductReducer";
-import { productsData } from "../data/products";
+import { productsData } from "../data/product"
 
 export const ProductContext = createContext();
 
